@@ -14,3 +14,12 @@ public class pattern_ABC{
    }
  }
 }
+
+/*
+output..
+
+ADA
+BCB
+CBC
+DAD
+*/
