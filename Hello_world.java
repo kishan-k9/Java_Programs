@@ -3,3 +3,8 @@ public class Hello_world {
         System.out.println("Hello, World!");
     }
 }
+
+
+//output..
+
+// Hello, World!
