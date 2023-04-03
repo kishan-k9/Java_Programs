@@ -4,9 +4,7 @@ public class ATM {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int s, p = 1729, up = 0,c = 1234, uc = 0,temp;
-		int nw;
-		//String ch;
+		int s, p = 1729, up = 0,c = 1234, uc = 0,temp,nw;
 		int balance = 200000, withdraw, deposit;
 		System.out.println("****** Welcome To The Bank of KNIT'S ******");
 		System.out.println("       Please Enter Your Card detail");
@@ -16,8 +14,8 @@ public class ATM {
 		System.out.println("Enter Your PIN : ");
 		up = sc.nextInt();
 
+		if (c == uc && p == up){
 		System.out.println("Do You want to Change Your PIN Y/N : ");
-		//char ch=sc.nextLine();
 		char ch= sc.next().charAt(0); 
 		if(ch=='Y'){
 			System.out.print("Enter Your New 4 digit PIN : ");
@@ -32,7 +30,7 @@ public class ATM {
 		    System.out.println("Enter Your PIN : ");
 		    up = sc.nextInt();
 		}
-
+	     }
 		if (c == uc && p == up){
 			do {
 				System.out.println("Automated Teller Machine");
@@ -76,6 +74,7 @@ public class ATM {
 		}
 	} // main
 } // class
+
 
 
 /* output
