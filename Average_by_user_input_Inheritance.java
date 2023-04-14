@@ -42,3 +42,13 @@ public class Average_by_user_input_Inheritance {
         o.show();
     }
 }
+
+
+/*
+output
+How many numbers are there: 
+4
+Enter the numbers...
+1 2 3 4
+The average is: 2.50
+*/
